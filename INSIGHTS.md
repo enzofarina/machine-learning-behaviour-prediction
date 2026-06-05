@@ -18,7 +18,7 @@ This suggests that studying is necessary but not sufficient. Other factors deter
 
 Class attendance showed a consistent correlation with performance. Students with high attendance tend to have higher and more stable scores.
 
-![School Attendance vs Exam Score](images/attendance.png)
+![School Attendance vs Exam Score](https://raw.githubusercontent.com/enzofarina/machine-learning-behaviour-prediction/main/images/attendance.png)
 
 Being present means exposure to content, the teacher, discussions, and the rhythm of learning. Regular attendance also signals commitment, routine, and engagement — qualities that impact performance in other ways too.
 
@@ -26,7 +26,7 @@ Being present means exposure to content, the teacher, discussions, and the rhyth
 
 ## 3. Internet access: a real advantage, but not decisive
 
-![Internet Access and Exam Score](images/internet_access.png)
+![Internet Access and Exam Score](https://raw.githubusercontent.com/enzofarina/machine-learning-behaviour-prediction/main/images/internet_access.png)
 
 Students with internet access scored slightly higher on average. The difference is not dramatic, but it is consistent enough to appear in the data. Internet access represents access to study resources, supplementary materials, learning platforms, and communication with peers and teachers.
 
@@ -34,7 +34,7 @@ Students with internet access scored slightly higher on average. The difference 
 
 ## 4. Extracurricular activities: broader than it looks
 
-![Extracurricular Activities and Exam Score](images/extracurricular.png)
+![Extracurricular Activities and Exam Score](https://raw.githubusercontent.com/enzofarina/machine-learning-behaviour-prediction/main/images/extracurricular.png)
 
 Students who participate in extracurricular activities show a distribution very similar to those who don't, with a slight edge. This suggests that staying engaged outside the classroom — in sports, arts, clubs — does not hurt academic performance and may even help by building discipline and social skills.
 
@@ -42,7 +42,7 @@ Students who participate in extracurricular activities show a distribution very 
 
 ## 5. Motivation: the factor that most changes the distribution
 
-![Motivation Level and Exam Score](images/motivation_level.png)
+![Motivation Level and Exam Score](https://raw.githubusercontent.com/enzofarina/machine-learning-behaviour-prediction/main/images/motivation_level.png)
 
 Among the behavioral variables analyzed, motivation showed one of the clearest patterns. Highly motivated students not only get better grades — their grades are **more consistent**. The violin shape for "High" motivation is narrower, meaning less variation.
 
@@ -52,7 +52,7 @@ Students with low motivation show a much wider spread: some still do well (possi
 
 ## 6. Parental involvement: home support shows up in grades
 
-![Parental Involvement and Exam Score](images/parental_involvement.png)
+![Parental Involvement and Exam Score](https://raw.githubusercontent.com/enzofarina/machine-learning-behaviour-prediction/main/images/parental_involvement.png)
 
 Students with high parental involvement consistently showed higher score distributions. Engaged parents create routines, monitor development, enforce accountability, and provide emotional support. The pattern is clear across all three levels (Low / Medium / High): more involvement, better performance.
 
@@ -60,7 +60,7 @@ Students with high parental involvement consistently showed higher score distrib
 
 ## 7. Learning disabilities: real and important impact
 
-![Learning Disabilities and Exam Score](images/learning_disabilities.png)
+![Learning Disabilities and Exam Score](https://raw.githubusercontent.com/enzofarina/machine-learning-behaviour-prediction/main/images/learning_disabilities.png)
 
 Students with learning disabilities scored lower on average and showed a compressed distribution. This reinforces the need for **differentiated strategies and specialized support** for this group. Importantly, some students in this group still performed above average — showing that with adequate support, the impact can be mitigated.
 
@@ -68,7 +68,7 @@ Students with learning disabilities scored lower on average and showed a compres
 
 ## 8. Peer influence: the social environment matters
 
-![Peer Influence and Exam Score](images/peer_influence.png)
+![Peer Influence and Exam Score](https://raw.githubusercontent.com/enzofarina/machine-learning-behaviour-prediction/main/images/peer_influence.png)
 
 Students with positive peer influence tended to perform slightly better than those with negative or neutral influence. The difference is subtle, but the pattern is consistent with educational literature: an environment where studying is valued, asking questions is normal, and academic performance is part of the group's identity shapes individual outcomes.
 

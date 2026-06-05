@@ -80,7 +80,7 @@ R² ranges from 0 to 1 (and can be negative for very poor models):
 
 We trained three models and compared them across all three metrics:
 
-![Model Performance Comparison](images/model_comparison.png)
+![Model Performance Comparison](https://raw.githubusercontent.com/enzofarina/machine-learning-behaviour-prediction/main/images/model_comparison.png)
 
 | Model | MAE | RMSE | R² |
 |---|---|---|---|
@@ -96,7 +96,7 @@ XGBoost won on all three fronts: lowest average error (MAE), least penalization 
 
 The chart below plots the actual exam score against the model's prediction for each student in the test set. The red dashed line represents perfect prediction (y = x) — the closer the dots are to that line, the better the model.
 
-![Real vs Predicted Exam Scores](images/real_vs_predicted.png)
+![Real vs Predicted Exam Scores](https://raw.githubusercontent.com/enzofarina/machine-learning-behaviour-prediction/main/images/real_vs_predicted.png)
 
 The dots hug the diagonal very tightly, which visually confirms the strong R² of 0.90. The few students further from the line represent the cases where the model's MAE and RMSE come from.
 

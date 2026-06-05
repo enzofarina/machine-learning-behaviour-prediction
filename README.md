@@ -126,7 +126,7 @@ Combines sleep hours, motivation, distance from home, and physical activity, als
 
 These two metrics are used together to visualize how health and academic performance relate across the student population.
 
-![Health vs Academic](images/health_vs_academic.png)
+![Health vs Academic](https://raw.githubusercontent.com/enzofarina/machine-learning-behaviour-prediction/main/images/health_vs_academic.png)
 
 ---
 
