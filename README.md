@@ -160,8 +160,8 @@ For the full analysis with visualizations and interpretations, see [`INSIGHTS.md
 
 ## 👥 Team
 
-| Name | Role |
-|---|---|
-| Matheus Vilella | Data Scientist · Business Specialist |
-| Guilherme Santos | Data Engineer · Data Scientist |
-| Enzo Farina | Project Manager · ML Engineer |
+| Name |
+|---|
+| Matheus Vilella |
+| Guilherme Santos |
+| Enzo Farina |
