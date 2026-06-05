@@ -126,6 +126,8 @@ Combines sleep hours, motivation, distance from home, and physical activity, als
 
 These two metrics are used together to visualize how health and academic performance relate across the student population.
 
+![Health vs Academic](images/health_vs_academic.png)
+
 ---
 
 ## 🤖 Models tested
@@ -160,8 +162,8 @@ For the full analysis with visualizations and interpretations, see [`INSIGHTS.md
 
 ## 👥 Team
 
-| Name | Role |
-|---|---|
-| Matheus Vilella | Data Scientist · Business Specialist |
-| Guilherme Santos | Data Engineer · Data Scientist |
-| Enzo Farina | Project Manager · ML Engineer |
+| Name |
+|---|
+| Matheus Vilella |
+| Guilherme Santos |
+| Enzo Farina |

@@ -25,16 +25,6 @@ MAE is in the **same unit as the variable you're predicting**. Since we're predi
 
 If a student scored 72 and the model predicted 70.1, the error was 1.9. If another scored 65 and the model predicted 63.0, the error was 2.0. The MAE would be the average of these errors across all test students.
 
-### Results in this project
-
-| Model | MAE |
-|---|---|
-| Linear Regression | 3.2 |
-| Random Forest | 2.1 |
-| **XGBoost** | **1.9** |
-
-XGBoost is off by less than 2 points per student on average — a strong result for scores on a 0–100 scale.
-
 ---
 
 ## RMSE — Root Mean Squared Error
@@ -57,16 +47,6 @@ Like MAE, RMSE is in the same unit as the predicted variable. The difference is 
 ### Why does this matter?
 
 In an educational context, a 1–2 point error is acceptable. But if the model predicts 70 for a student who scored 50, that 20-point error could lead to wrong support decisions. RMSE captures this concern better than MAE.
-
-### Results in this project
-
-| Model | RMSE |
-|---|---|
-| Linear Regression | 3.9 |
-| Random Forest | 2.6 |
-| **XGBoost** | **2.3** |
-
-XGBoost's RMSE (2.3) being close to its MAE (1.9) indicates the model doesn't have large isolated errors — mistakes are distributed relatively evenly across students.
 
 ---
 
@@ -94,19 +74,31 @@ R² ranges from 0 to 1 (and can be negative for very poor models):
 | 0 | Equivalent to always predicting the mean |
 | < 0 | Worse than always predicting the mean |
 
-### Practical example
+---
 
-Imagine student scores vary widely — some get 60, others 80, others 70. If we simply predicted 70 (the average) for everyone, we'd be wrong a lot. An R² of 0.90 means our model explains 90% of that variation — it captures what makes one student score 60 and another score 80.
+## Model comparison
 
-### Results in this project
+We trained three models and compared them across all three metrics:
 
-| Model | R² |
-|---|---|
-| Linear Regression | 0.81 |
-| Random Forest | 0.88 |
-| **XGBoost** | **0.90** |
+![Model Performance Comparison](images/model_comparison.png)
 
-XGBoost's R² of 0.90 is a strong result: **the model explains 90% of the variation in exam scores** based on student habits and conditions. The remaining 10% represents factors the data doesn't capture — like performance on a specific day, temporary health issues, or simple random variation.
+| Model | MAE | RMSE | R² |
+|---|---|---|---|
+| Linear Regression | 3.2 | 3.9 | 0.81 |
+| Random Forest | 2.1 | 2.6 | 0.88 |
+| **XGBoost** | **1.9** | **2.3** | **0.90** |
+
+XGBoost won on all three fronts: lowest average error (MAE), least penalization for large mistakes (RMSE), and best explanation of data variation (R²).
+
+---
+
+## Real vs. Predicted scores
+
+The chart below plots the actual exam score against the model's prediction for each student in the test set. The red dashed line represents perfect prediction (y = x) — the closer the dots are to that line, the better the model.
+
+![Real vs Predicted Exam Scores](images/real_vs_predicted.png)
+
+The dots hug the diagonal very tightly, which visually confirms the strong R² of 0.90. The few students further from the line represent the cases where the model's MAE and RMSE come from.
 
 ---
 
